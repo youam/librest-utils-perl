@@ -1,0 +1,17 @@
+Source: librest-utils-perl
+Section: perl
+Priority: optional
+Maintainer: Uli Martens <uli@youam.net>
+Build-Depends: debhelper (>= 9)
+Build-Depends-Indep: perl
+Standards-Version: 3.9.6
+Homepage: https://metacpan.org/release/REST-Utils
+
+Package: librest-utils-perl
+Architecture: all
+Depends: ${misc:Depends}, ${perl:Depends}
+Description: Utility functions for REST applications
+ REST::Utils contains some functions that are useful for implementing REST
+ applications.
+ .
+ This description was automagically extracted from the module by dh-make-perl.
